@@ -89,7 +89,7 @@ function App() {
               variant="outlined" 
               value={country}
             >
-              <MenuItem value="worldwide">Worldwide</MenuItem>
+              <MenuItem value="worldwide">En todo el Mundo</MenuItem>
             { countries.map(country => (
               <MenuItem value={country.value}>{country.name}</MenuItem>
             ))}
